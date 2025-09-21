@@ -1,9 +1,10 @@
 flet
 geopandas
-folium
-matplotlib
+pyogrio
 shapely
-tqdm
 pandas
 numpy
+matplotlib
+folium
+tqdm
 

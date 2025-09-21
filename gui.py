@@ -14,6 +14,8 @@ from datetime import datetime
 import folium
 import webbrowser
 import os
+os.environ["GEOPANDAS_IO_ENGINE"] = "pyogrio"
+
 
 # ------------------------ Geometrihjälp ------------------------
 def perim_area_ratio(geom):
