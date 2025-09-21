@@ -714,5 +714,6 @@ def app_main(page: ft.Page):
 
 
 # Kör i webbläsare (ingen libmpv krävs)
-ft.app(target=app_main, view=ft.WEB_SERVER, port=int(os.environ.get("PORT", 8080)))
+ft.app(target=app_main, port=int(os.environ.get("PORT", 8080)))
+
 
